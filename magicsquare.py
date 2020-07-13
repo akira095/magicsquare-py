@@ -30,14 +30,14 @@ class Magic:
     def __init__(self, size):
 
         self.size = size
-        self.magicsum = self.size * (self.size**2)+1 / 2
+        self.magicsum = (self.size * ((self.size**2) + 1)) // 2
         self.square = [[0 for x in range(self.size)]
                         for y in range(self.size)]
 
-    def draw(self):
+    def build(self):
 
         #  Iniciando a primeira posição
-        i = self.size//2
+        i = self.size // 2
         j = self.size - 1
 
         aux = 1
@@ -70,16 +70,22 @@ class Magic:
 
             i -= 1
             j += 1
+        
+        return self.square
 
+    def draw(self):
+
+        square = self.build()
         print(f'Soma mágica: {self.magicsum}')
+        
         for i in range(0, self.size):
             for j in range(0, self.size):
-                print(f'{self.square[i][j]}', end=' ')
+                print(f'{square[i][j]}', end=' ')
                 if j == self.size - 1:
                     print()
 
 
-num = int(input('Número n de linhas e colunas: '))
+num = int(input('Tamanho do quadrado: '))
 if num % 2 != 0:
     square = Magic(num)
     square.draw()
