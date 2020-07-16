@@ -1,11 +1,11 @@
-###  Nota:
+####  Nota:
 Na versão atual, o programa segue o algoritmo à risca, gerando sempre o mesmo quadrado, e só funciona quando o número n de linhas e colunas é ímpar.
 
-###  A fazer:
+####  A fazer:
 - Posicionar números aleatoriamente para gerar quadrados diferentes.
 - Implementar backtracking para construir o quadrado como uma pessoa faria (?).
 
-### A mágica do quadrado
+## A mágica do quadrado
 Um quadrado mágico é uma tabela quadrada de números de dimensão n² onde a soma das linhas, colunas e diagonais é sempre a mesma.
 
 Eu encontrei diversas formas para construir quadrados mágicos, e esta é somente uma delas. Não me aprofundei muito no assunto, mas seu conceito é muito interessante.
