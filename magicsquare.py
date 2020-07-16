@@ -1,15 +1,7 @@
 #!/usr/bin/python3
-#
+
 #  Autor: Artur Rabelo <artur.rabelo05@gmail.com>
 #  Github: akira095
-# 
-#  NOTE:
-#  Na versão atual, o programa segue o algoritmo à risca, gerando sempre o mesmo quadrado,
-#  e só funciona quando o número n de linhas e colunas é ímpar.
-#
-#  TODO:
-#  - Posicionar números aleatoriamente para gerar quadrados diferentes.
-#  - Implementar backtracking para construir o quadrado como uma pessoa faria (?).
 
 """
     Um quadrado mágico é uma tabela quadrada de números de dimensão n² onde a soma das linhas,
