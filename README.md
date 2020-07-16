@@ -18,7 +18,7 @@ Eu encontrei diversas formas para construir quadrados mágicos, e esta é soment
            + ----- + ----- + ----- +
         2  | (2,0) | (2,1) | (2,2) |
            + ----- + ----- + ----- +
-    (i)
+       (i)
 
     Sendo (i, j) a posição atual, posicionamos os números:
     - O primeiro número é posicionado em (n/2, n-1);
